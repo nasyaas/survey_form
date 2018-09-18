@@ -1,0 +1,130 @@
+<DOCTYPE! html>
+
+<head>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+  </script>
+
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT" rel="stylesheet">
+  <!--Title-->
+</head>
+<body>
+<div class="container">
+  <div class="box item1">
+    <h1 id="title"> Smith's <br> Dog Academy</h1>
+    <img class="dogbone" src="images.png" alt="Picture of a dogbone">
+    <h2>Home for you and your pet</h2>
+  </div>
+  <div class="box item2">
+    <!--Desrciption-->
+    <br>
+    <p id="description"> If you are interesting in regestering your pet or pets in any of our courses please fill out the below regestration form and we will be in contact with you as soon as possible. We look forward to working with you and your pup. Thank you!</p>
+    <br>
+    <h3>Resistration</h3>
+  </div>
+  <div class="box item4 formbox">
+    <!--Form-->
+    <form id="survey-form">
+      <label id="name-label">
+        Name <input id="name" type="text" name="Name" placeholder= "Your Name" required>
+        <br>
+      </label>
+
+    <label id="email-label">
+      Email <input id="email" type="email" name="email" placeholder= "Your Email" pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$" required>
+      <br>
+    </label>
+
+    <label id="number-label">
+      Number of Pets <input id="number" type="number" name="number" placeholder= "Number of Pets" min="0" max="10" pattern="[0-9]{1,2}">
+      <br>
+    </label>
+
+    <h4>Pet 1</h4>
+      <br>
+    <label>
+      <input type="radio" name="gender" value="Female">Female
+      <input type="radio" name="gender" value="Male">Male
+      <br>
+    </label>
+
+    <label>
+      Type of Dog <select name="dog breed" id="dropdown">
+      <option value="Breed Type" selected>Breed Type</option>
+      <option value="Pitbull">Pitbull</option>
+      <option value="Terrier">Terrier</option>
+      <option value=  "Lab">Lab</option>
+      <option value="Mixd Breed">Mixed Breed</option>
+    </select>
+        <br>
+    </label>
+
+    <label>
+      If your dog is a mixed breed please specify which breeds<input type="text" name="Mixed Breed Type" placeholer= "Breeds">
+    </label>
+      <br>
+
+    <label>
+      What kind of calsses are you interested in for your dog?
+      <br>
+      <input type="checkbox" name="class" value="Puppy Obideince Part I">Puppy Obidience Part I<br>
+      <input type="checkbox" name="class" value="Puppy Obideince Part II">Puppy Obidience Part II<br>
+      <input type="checkbox" name="class" value="Dealing with Anxiety">Dealing with Anxiety<br>
+      <input type="checkbox" name="class" value="Adult Obideince Part I">Adult Obidience Part I<br>
+      <input type="checkbox" name="class" value="Adult Obideince Part II">Adult Obidience Part II<br>
+      <input type="checkbox" name="class" value="Advanced Obedince and Tricks">Advanced Obedince and Tricks<br>
+    </label>
+
+    <h4>Pet 2</h4>
+      <br>
+    <label>
+      <input type="radio" name="gender" value="Female">Female
+      <input type="radio" name="gender" value="Male">Male
+      <br>
+    </label>
+
+    <label>
+      Type of Dog <select name="dog breed" id="dropdown">
+      <option value="Breed Type" selected>Breed Type</option>
+      <option value="Pitbull">Pitbull</option>
+      <option value="Terrier">Terrier</option>
+      <option value="Lab">Lab</option>
+      <option value="Mixd Breed">Mixed Breed</option>
+    </select>
+        <br>
+    </label>
+
+    <label>
+      If your dog is a mixed breed please specify which breeds<input type="text" name="Mixed Breed Type" placeholer= "Breeds">
+    </label>
+      <br>
+
+    <label>
+      What kind of calsses are you interested in for your dog?
+      <br>
+      <input type="checkbox" name="class" value="Puppy Obideince Part I">Puppy Obidience Part I<br>
+      <input type="checkbox" name="class" value="Puppy Obideince Part II">Puppy Obidience Part II<br>
+      <input type="checkbox" name="class" value="Dealing with Anxiety">Dealing with Anxiety<br>
+      <input type="checkbox" name="class" value="Adult Obideince Part I">Adult Obidience Part I<br>
+      <input type="checkbox" name="class" value="Adult Obideince Part II">Adult Obidience Part II<br>
+      <input type="checkbox" name="class" value="Advanced Obedince and Tricks">Advanced Obedince and Tricks<br>
+    </label>
+
+    <label>
+      Please let us know if you have any comments, concerns, or questions:
+      <br>
+      <textarea class=comments name="comments"></textarea>
+    </label>
+      <br>
+
+    <label>
+      <input id="submit" class="button" type="submit" value="Submit">
+    </label>
+
+    </form>
+  </div>
+  <div class="logo">
+</div>
+</body>
